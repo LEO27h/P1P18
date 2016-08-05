@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class Nombre {
     //Atributos
-    private String  nombre,primer_apellido,segundo_apellido;
+    public String  nombre,primer_apellido,segundo_apellido;
     private Scanner lector;
     //Constructor
     Nombre(String name, String Last_name, String Second_name){

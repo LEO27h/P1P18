@@ -6,14 +6,15 @@ import java.util.Scanner;
 
 public class Direccion extends Nombre {
     //Atributos
-    private String calle,ciudad,provincia,codigo_postal,nombre,primer_apellido,segundo_apellido;
+    private String calle,ciudad,provincia,codigo_postal;
     private Scanner lector;
     //Constructor
-    Direccion(String name, String Last_name, String Second_name) {
+    
+    public Direccion(String name, String Last_name, String Second_name) {
         super(name, Last_name, Second_name);
     }
 
-    
+ 
     
     //Métodos
     public void Nueva_direccion(){
