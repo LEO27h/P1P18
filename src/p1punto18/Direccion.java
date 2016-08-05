@@ -10,7 +10,7 @@ public class Direccion extends Nombre {
     private Scanner lector;
     //Constructor
     
-    public Direccion(String name, String Last_name, String Second_name) {
+    public Direccion(String name, String Last_name, String Second_name, String street, String city, String dept, String postal) {
         super(name, Last_name, Second_name);
     }
 
